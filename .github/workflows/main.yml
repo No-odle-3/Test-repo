@@ -1,9 +1,9 @@
 name: hello world
 on: 
-  workflow_dispatch:
+  workflow_dispatch: 
 
-jobs:
+jobs: #taken die verricht kunnen worden
   hello-world:
     runs-on: ubuntu-latest
     steps:
-    - run: echo hello world
+      - run: echo hello world
