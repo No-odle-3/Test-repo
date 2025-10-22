@@ -4,7 +4,7 @@ on:
 
 jobs:
   dependencies-example:
-    runs_on: ubuntu latest
+    runs-on: ubuntu latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v6.0.0
