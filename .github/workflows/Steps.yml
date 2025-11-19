@@ -12,7 +12,7 @@ jobs:
   verification:
     runs-on: ubuntu-latest
     steps:
-      - run: cat output.txt
+      - run: cat /Testmachine/output.txt
       - run: ls -alhR
 
     
