@@ -4,13 +4,13 @@ on:
 
 jobs: 
   uname: 
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: mkdir -p Testmachine
       - run: uname -a > output.txt
     
   verification:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: cat output.txt
       - run: ls -alhR
