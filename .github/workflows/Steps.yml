@@ -13,6 +13,6 @@ jobs:
     runs on: ubuntu-latest
     steps:
       - run: cat output.txt
-      - run: ls -alhr
+      - run: ls -alhR
 
     
